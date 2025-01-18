@@ -1,24 +1,11 @@
-# Virtual environment
+# Ignore virtual environments
+.venv/
 venv/
+ENV/
 env/
 
-# Python files
-*.pyc
-__pycache__/
-
-# Migrations
-**/migrations/
-
-# Django secrets and settings
-*.sqlite3
+# Ignore other sensitive or unnecessary files
+node_modules/
 *.log
-.env
-
-# Cache
-*.cache
-*.mo
-*.pot
-.DS_Store
 *.swp
-*.swo
-*.py[co]
+.DS_Store
